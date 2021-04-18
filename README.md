@@ -151,11 +151,11 @@ Practice. Practice. Practice. It’ll only be a matter of time before you recogn
 
 The 5 Whys technique is a simple but powerful tool for cutting quickly through the outward symptoms of a problem to reveal its underlying causes, so that you can deal with it once and for all. You can use 5 Whys for troubleshooting, quality improvement, and problem solving, but it is most effective when used to resolve simple or moderately difficult problems.
 
-1. Assemble a Team - Gather together people who are familiar with the specifics of the problem, and with the process that you're trying to fix.
-2. Define the Problem - If you can, observe the problem in action. Discuss it with your team and write a brief, clear problem statement that you all agree on.
-3. Ask the First "Why?" - Ask your team why the problem is occurring.Asking "Why?" sounds simple, but answering it requires serious thought. Search for answers that are grounded in fact: they must be accounts of things that have actually happened, not guesses at what might have happened.
-4. Ask "Why?" Four More Times - For each of the answers that you generated in Step 3, ask four further "whys" in succession. Each time, frame the question in response to the answer you've just recorded.
-5. Know When to Stop - You'll know that you've revealed the root cause of the problem when asking "why" produces no more useful responses, and you can go no further. An appropriate counter-measure or process change should then become evident.
+1. **Assemble a Team** - Gather together people who are familiar with the specifics of the problem, and with the process that you're trying to fix.
+2. **Define the Problem** - If you can, observe the problem in action. Discuss it with your team and write a brief, clear problem statement that you all agree on.
+3. **Ask the First "Why?"** - Ask your team why the problem is occurring.Asking "Why?" sounds simple, but answering it requires serious thought. Search for answers that are grounded in fact: they must be accounts of things that have actually happened, not guesses at what might have happened.
+4. **Ask "Why?" Four More Times** - For each of the answers that you generated in Step 3, ask four further "whys" in succession. Each time, frame the question in response to the answer you've just recorded.
+5. **Know When to Stop** - You'll know that you've revealed the root cause of the problem when asking "why" produces no more useful responses, and you can go no further. An appropriate counter-measure or process change should then become evident.
 
 
 
