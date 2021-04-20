@@ -40,4 +40,4 @@ In Javascript, there are times where you need to make a request to an api or a d
 
 All callback functions are not considered Asynchronous. If you have a parent function with a callback as an argument, and in both scenarios just console.logging a simple line of code, the callback will always return before the parent function. This is because the parent cannot finish executing until the callback has finished. However, if you put the callback into an asynchronous state, for example using setTimeout, then the parent function will return first.
 
-Resource - https://medium.com/@pravngaur/callbacks-synchronous-asynchronous-62bac2b8fe85
+Resource - [https://medium.com/@pravngaur/callbacks-synchronous-asynchronous-62bac2b8fe85](https://medium.com/@pravngaur/callbacks-synchronous-asynchronous-62bac2b8fe85)
