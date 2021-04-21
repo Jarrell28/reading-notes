@@ -48,3 +48,21 @@ Resource - https://www.soapui.org/learn/api/soap-vs-rest-api/
 - Fast and lightweight
 
 - REST is data driven
+
+## Document the following Vocabulary Terms
+
+- **Web Server** - A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS. [Wikipedia](https://en.wikipedia.org/wiki/Web_server)
+
+- **Express** - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. [Express](https://expressjs.com/)
+
+- **Routing** -  Routing is the mechanism by which requests (as specified by a URL and HTTP method) are routed to the code that handles them. [OReilly](https://www.oreilly.com/library/view/web-development-with/9781491902288/ch14.html#:~:text=Routing%20is%20the%20mechanism%20by,the%20path%20%2Ffoo%2Fabout.)
+
+- **WRRC** - A cycle of requests and responses that flow between clients and servers. [Medium](https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047)
+
+## Preview
+
+1. Which 3 things had you heard about previously and now have better clarity on? TDD, CI/CD, Express Middleware
+
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? I am hoping to learn more about TDD, Express Middleware implementation,  CI/CD best practices 
+
+3. What are you most excited about trying to implement or see how it works? The most I am excited about is TDD. I feel this is crucial in the development space
