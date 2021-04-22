@@ -1,6 +1,6 @@
 # Reading Notes
 
-# Assignment - Review, Research, and Discussion
+# Class 01 - Review, Research, and Discussion
 
 ## Describe Array.map()
 
