@@ -27,7 +27,7 @@ module.exports = new Singleton();
 
 ## 3. If you were tasked with building a middleware system like Express uses, what approach might you take to construct/operate it?
 
-
+Going off of how express middleware works, I would need to create a function that takes in the request and response as an argument in order to be able to modify them. I would also require function similar to next() in order to interact with the request-response cycle. 
 
 
 ## Document the following Vocabulary Terms
