@@ -47,9 +47,8 @@ Going off of how express middleware works, I would need to create a function tha
 
 ## Preview
 
-1. Which 3 things had you heard about previously and now have better clarity on? MongoDB, Mongoose, Nosql
+1. Which 3 things had you heard about previously and now have better clarity on? bcrypt, authorization, authentication
 
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? data modeling, modular design, TDD
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Bearer Auth, bcrypt, best security practices
 
-3. What are you most excited about trying to implement or see how it works? TDD is still what I am most exicted to learn about. Now that Databases are involved, I want to gain more experience writing tests for databases
-
+3. What are you most excited about trying to implement or see how it works? I've seen Bearer Auth many times in requests from my previous job. I am curious how this works 
