@@ -1,54 +1,58 @@
 # Reading Notes
 
-# Class 06 - Authentication
+# Class 07 - Bearer Authentication
 
-## 1. Explain what a “Singleton” is (in Computer Science terms)
+## 1. Write the following steps in the correct order:
 
 Resource - https://en.wikipedia.org/wiki/Singleton_pattern
 
-The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system.
-
-## 2. Explain how the Singleton pattern can be used with Node modules, specifically with classes
-
-Resource - https://medium.com/swlh/node-js-and-singleton-pattern-7b08d11c726a
-
-We can use the Singleton pattern by creating a Singleton class, and exporting the instance of that class. Node.Js will cache and reuse the same object each time it's required.
-
-```
-class Singleton {
-    constructor() {
-        this.message = 'I am an instance';
-    }
-}
-module.exports = new Singleton();
-
-```
+-Register your application to get a client_id and client_secret
+-Ask the client if they want to sign in via a third party
+-Redirect to a third party authentication endpoint
+-Receive authorization code
+-Make a request to the access token endpoint
+-Receive access token
+-Make a request to a third-party API endpoint
 
 
-## 3. If you were tasked with building a middleware system like Express uses, what approach might you take to construct/operate it?
+## 2. What can you do with an authorization code?
 
-Going off of how express middleware works, I would need to create a function that takes in the request and response as an argument in order to be able to modify them. I would also require function similar to next() in order to interact with the request-response cycle. 
+Resource - https://www.oauth.com/oauth2-servers/server-side-apps/authorization-code/
 
+Authorization code grants your temporary access to a API to see what information the client is requesting.
+
+## 3. What can you do with an access token?
+
+Resource - https://auth0.com/docs/tokens/access-tokens
+
+An access token grants you access to an API
+
+## 4. What’s a benefit of using OAuth instead of your own basic authentication?
+
+-More secure than basic authentication
+-Can link your application to other services like sign in with Google,Facebook etc..
 
 ## Document the following Vocabulary Terms
 
-- **Router Middleware** - Router middleware is middleware that only applies to certain routes in Express.
+- **Client ID** - The client_id is a public identifier for apps. [Resource](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/)
 
-- **Dynamic Module Loading** - Dynamic loading is a mechanism by which a computer program can, at run time, load a library (or other binary) into memory, retrieve the addresses of functions and variables contained in the library, execute those functions or access those variables, and unload the library from memory. [Resource](https://en.wikipedia.org/wiki/Dynamic_loading)
+- **Client Secret** - The client_secret is a secret known only to the application and the authorization server. [Resource](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/)
 
-- **Singleton Pattern** -  The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system. [Resource](https://en.wikipedia.org/wiki/Singleton_pattern)
+- **Authentication Endpoint** -  Authentication server we make requests to for us to receive an authentication code. 
 
-- **CRUD -> REST Method Matches** - ![image](https://user-images.githubusercontent.com/33704616/116161480-6f377c80-a6b9-11eb-97ae-734d2a33d0c5.png)
+- **Access Token Endpoint** - Server we make requests to in order to receive an access token.
 
+- **API Endpoint** - A Server we make requests to in order to receive some form of data.
 
-- **Mock Testing** - Mock testing is an approach to unit testing that lets you make assertions about how the code under test is interacting with other system modules. [Resource](https://devopedia.org/mock-testing)
+- **Authorization Code** - The authorization code is a temporary code that the client will exchange for an access token. [Resource](https://www.oauth.com/oauth2-servers/server-side-apps/authorization-code/)
 
+- **Access Token** - Access tokens are used in token-based authentication to allow an application to access an API. [Resource](https://auth0.com/docs/tokens/access-tokens)
 
 
 ## Preview
 
-1. Which 3 things had you heard about previously and now have better clarity on? bcrypt, authorization, authentication
+1. Which 3 things had you heard about previously and now have better clarity on? jwt, bearer authentication
 
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Bearer Auth, bcrypt, best security practices
-
-3. What are you most excited about trying to implement or see how it works? I've seen Bearer Auth many times in requests from my previous job. I am curious how this works 
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? jwt, patterns for applying jwt
+3. 
+4. What are you most excited about trying to implement or see how it works? I am curious to learn the different ways we implement jwt in our applications. Specifically how we turn the tokens into sessions
