@@ -4,14 +4,18 @@
 
 ## 1. Write the following steps in the correct order:
 
-Resource - https://en.wikipedia.org/wiki/Singleton_pattern
-
 -Register your application to get a client_id and client_secret
+
 -Ask the client if they want to sign in via a third party
+
 -Redirect to a third party authentication endpoint
+
 -Receive authorization code
+
 -Make a request to the access token endpoint
+
 -Receive access token
+
 -Make a request to a third-party API endpoint
 
 
