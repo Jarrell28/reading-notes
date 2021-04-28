@@ -4,19 +4,19 @@
 
 ## 1. Write the following steps in the correct order:
 
--Register your application to get a client_id and client_secret
+- Register your application to get a client_id and client_secret
 
--Ask the client if they want to sign in via a third party
+- Ask the client if they want to sign in via a third party
 
--Redirect to a third party authentication endpoint
+- Redirect to a third party authentication endpoint
 
--Receive authorization code
+- Receive authorization code
 
--Make a request to the access token endpoint
+- Make a request to the access token endpoint
 
--Receive access token
+- Receive access token
 
--Make a request to a third-party API endpoint
+- Make a request to a third-party API endpoint
 
 
 ## 2. What can you do with an authorization code?
@@ -33,8 +33,9 @@ An access token grants you access to an API
 
 ## 4. What’s a benefit of using OAuth instead of your own basic authentication?
 
--More secure than basic authentication
--Can link your application to other services like sign in with Google,Facebook etc..
+- More secure than basic authentication
+
+- Can link your application to other services like sign in with Google,Facebook etc..
 
 ## Document the following Vocabulary Terms
 
