@@ -15,3 +15,5 @@
 [Class 06 Reading Material](https://jarrell28.github.io/reading-notes/class06)
 
 [Class 07 Reading Material](https://jarrell28.github.io/reading-notes/class07)
+
+[Class 08 Reading Material](https://jarrell28.github.io/reading-notes/class08)
