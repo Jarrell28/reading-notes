@@ -59,5 +59,5 @@ An access token grants you access to an API
 1. Which 3 things had you heard about previously and now have better clarity on? jwt, bearer authentication
 
 2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? jwt, patterns for applying jwt
-3. 
-4. What are you most excited about trying to implement or see how it works? I am curious to learn the different ways we implement jwt in our applications. Specifically how we turn the tokens into sessions
+
+3. What are you most excited about trying to implement or see how it works? I am curious to learn the different ways we implement jwt in our applications. Specifically how we turn the tokens into sessions
