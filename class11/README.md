@@ -1,46 +1,41 @@
 # Reading Notes
 
-# Class 08 - Access Control List (ACL)
+# Class 11 - Event Driven Applications
 
-## 1. When is Basic Authorization used vs. Bearer Authorization?
+## 1. Why is access control important?
 
-- Basic Authorization is used to sign in a user via username and password into an application
-
-- Bearer Authorization is used when a user is already signed in, and determines what permissions that user has
+Access control allows you to control your application by restricting certain functionality from users. This is important because non-admin users should not be capable of performing the same actions as admin users. 
 
 
-## 2. What does the JSON Web Token package do?
+## 2. Describe an application that would need access control.
 
-Resource - https://jwt.io/introduction
+E-commerce, social media applications, almost any application that would allow users to create an account needs to have some level of access control.
 
-JWT provides tokens to be used in bearer authorization. These tokens contain encrytped information about users. Using the JWT library, you can decrypt this token and access user data.
+## 3. What is a role used for?
 
-## 3. What considerations should we make when creating and storing a SECRET?
+A role is used to assign users to a specific group. The role comes with permissions that allow users in that role to perform certain actions in an application. 
 
-Resource - https://itnext.io/how-to-store-passwords-and-api-keys-in-project-code-1eaf5cb235c9
+## 4. Why is role based access control more scalable than discretionary or mandatory access control?
 
-The main consideration would be how we would store the SECRET key. The most common way to store these keys would be to save them as environment variables and setting a .gitignore file to ignore the .env file. This way, the key is not being exposed to anyone except the client machine. Another way we could store the SECRET would be to use Firebase. Firebase is protected and only applications that are signed with a certificate can access Firebase databases.
+Resource - https://www.techotopia.com/index.php/Mandatory,_Discretionary,_Role_and_Rule_Based_Access_Control
+
+RBAC seems easier to implement in an environment and easier to manage than discretionary and mandatory access control. With Discretionary Access Control, users would manually allow other users to access files that they. With Mandatory Access Control system administrators have to set up the each user's computer with a specific level of access. Both DAC and MAC contain manually labor to achieve access control which is more time consuming than RBAC.
 
 
 ## Document the following Vocabulary Terms
 
-- **encryption** - In cryptography, encryption is the process of encoding information. This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext. Ideally, only authorized parties can decipher a ciphertext back to plaintext and access the original information. [Resource](https://en.wikipedia.org/wiki/Encryption)
+- **Authorization** - Allows you to access certain parts of an application based on your access level
 
-- **token** - Token, an object (in software or in hardware) which represents the right to perform some operation. [Resource](https://en.wikipedia.org/wiki/Token)
+- **Role Based Access Control** - Access is assigned to users based on their role in the application.
 
-- **bearer** -  Bearer authentication (also called token authentication) is an HTTP authentication scheme that involves security tokens called bearer tokens. [Resource](https://swagger.io/docs/specification/authentication/bearer-authentication/)
-
-- **secret** - A secret key is the piece of information or parameter that is used to encrypt and decrypt messages in a symmetric, or secret-key, encryption. [Resource](https://www.techopedia.com/definition/24865/secret-key)
-
-- **JSON Web Token** - JWT is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. [Resource](https://jwt.io/introduction)
- 
+- **Capabilities** - Capabilities are the permissions in the application that are assigned to roles.
 
 ## Preview
 
-1. Which 3 things had you heard about previously and now have better clarity on? I haven't heard of the term RBAC, but I am familiar with the concept
+1. Which 3 things had you heard about previously and now have better clarity on? Event Driven Programming, OOP
 
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? RBAC, ACL, Implementing in applicatio
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Event Driven Programming, Event Emitter
 
-3. What are you most excited about trying to implement or see how it works? Interested in applying ACL/RBAC in an application and learning best practices
+3. What are you most excited about trying to implement or see how it works? Implementing Event-Driven Programming and OOP together in an application
 
 
