@@ -3,64 +3,65 @@
 
 # Class 12 - Socket.io
 
-## 1. What is the benefit of transforming data into packets?
+## 1. What does it mean that web sockets are bidirectional? Why is this useful?
 
-[Resource](https://en.wikipedia.org/wiki/Packet_switching#:~:text=Packet%20switching%20is%20used%20to,to%20increase%20robustness%20of%20communication.)
+[Resource](https://www.amx.com/en/site_elements/benefits-and-applications-of-websockets)
 
-To optimize the use of the channel capacity available in digital telecommunication networks, such as computer networks, and minimize the transmission latency (the time it takes for data to pass across the network), and to increase robustness of communication.
+This enables the server to send real-time updates asynchronously, without requiring the client to submit a request each time. 
 
 
-## 2. UDP is often refereed to as a connectionless protocol. Why is this?
+## 2. Does socket.io use HTTP? Why?
 
-[Resource](https://en.wikibooks.org/wiki/Communication_Networks/TCP_and_UDP_Protocols/UDP)
+[Resource](https://www.amx.com/en/site_elements/benefits-and-applications-of-websockets)
 
-UDP doesn't establish a connection before sending data, it just sends the data.
+socket.io uses HTTP for the initial handshake connection between client and server. Afterwards, the connection is kept alive via a ping-pong process in which the server continuously pings the client for a response.
 
-## 3. Can a socket server application have multiple socket connections?
+## 3. What happens when a client emits an event?
 
-[Resource](https://www.gnu.org/software/libc/manual/html_node/Accepting-Connections.html)
+If the server is listening for the event, it will fire the callback function
 
-A socket that has been established as a server can accept connection requests from multiple clients
+## 4. What happens when a server emits an event?
 
-## 4. Can a socket connection application be connected to multiple socket servers?
+If the client is listening for the event and it will fire the callback function
 
-Yes, you can establish a connection to multple socket servers from a single client.
+## 5. What happens if a client “misses” an event?
 
-## 5. Can an application be both a socket server and a socket connection?
+[Resource](https://stackoverflow.com/questions/32816290/what-happens-with-unhandled-socket-io-events)
 
-[Resource](https://www.quora.com/Can-you-make-a-client-socket-and-a-server-socket-in-one)
+The client will ignore the event if it does not have a handler for that specific event
 
-You can make a a socket client and socket server within a single application by using two different ports or if the socket won't be using the same port at the same time
+## 6. How can we mitigate this?
 
+If the client does not have a handler for the event, you could create one or have the events only emit to clients that it needs to
 
 ## Document the following Vocabulary Terms
 
-- **Observer Pattern** - a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.[Resource](https://en.wikipedia.org/wiki/Observer_pattern)
+- **Socket** - Sockets allow communication between two different processes on the same or different machines.[Resource](https://www.tutorialspoint.com/unix_sockets/what_is_socket.htm)
 
-- **Listener** - An event listener is a procedure or function in a computer program that waits for an event to occur. [Resource](https://www.computerhope.com/jargon/e/event-listener.htm#:~:text=An%20event%20listener%20is%20a,for%20an%20event%20to%20occur.&text=The%20listener%20is%20programmed%20to,specific%20to%20Java%20and%20JavaScript.)
+- **Web Socket** - WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection.  [Resource](https://en.wikipedia.org/wiki/WebSocket)
 
-- **Event Handler** - An event handler is a routine that deals with the event, allowing a programmer to write code that is executed when the event occurs. [Resource](https://www.computerhope.com/jargon/e/event.htm)
+- **Socket.io** -Socket.IO is a library that enables real-time, bidirectional and event-based communication between the browser and the server. [Resource](https://socket.io/docs/v4/index.html)
 
-- **Event Driven Programming** - Simply put, event-driven programming is when a program is designed to respond to user engagement in various forms. It is known as a programming paradigm in which the flow of program execution is determined by “events.” [Resource](https://www.edgetechacademy.edu/node-js/event-driven-programming/)
+- **Client** - A client is anything that makes a requests to a server
 
-- **Event Loop** - The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible. [Resource](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+- **Server** - A server hosts data and receives requests from clients and responds appropriately
 
-- **Event Queue** - An event queue is a repository where events from an application are held prior to being processed by a receiving program or system. Event queues are often used in the context of an enterprise messaging system. [Resource](https://www.techopedia.com/definition/24963/event-queue)
+- **OSI Model** -The Open Systems Interconnection model (OSI model) is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology. Its goal is the interoperability of diverse communication systems with standard communication protocols. [Resource](https://en.wikipedia.org/wiki/OSI_model)
 
-- **Call Stack** - A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc. [Resource](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+- **TCP Model** - TCP/IP Model helps you to determine how a specific computer should be connected to the internet and how data should be transmitted between them. It helps you to create a virtual network when multiple computer networks are connected together. The purpose of TCP/IP model is to allow communication over large distances. [Resource](https://www.guru99.com/tcp-ip-model.html)
 
-- **Emit/Raise/Trigger** - Triggers events that cause function objects to be called [Resource](https://stackabuse.com/handling-events-in-node-js-with-evenemitter/)
+- **TCP** - Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite. TCP is connection-oriented, and a connection between client and server is established before data can be sent. [Resource](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 
-- **Subscribe** - Listens for events to be emitted and acts accordingly [Resource](https://stackabuse.com/handling-events-in-node-js-with-evenemitter/)
+- **UDP** - User Datagram Protocol (UDP) is one of the core members of the Internet protocol suite. With UDP, computer applications can send messages, in this case referred to as datagrams, to other hosts on an Internet Protocol (IP) network. Prior communications are not required in order to set up communication channels or data paths. [Resource](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
 
-- **database** - An organized collection of structured information or data stored in a computer.
+- **Packets** - a formatted unit of data carried by a packet-switched network. A packet consists of control information and user data; the latter is also known as the payload. [Resource](https://en.wikipedia.org/wiki/Network_packet)
 
 ## Preview
 
-1. Which 3 things had you heard about previously and now have better clarity on? OSI Model, TCP Handshakes, Web Sockets
+1. Which 3 things had you heard about previously and now have better clarity on? Socket.io, Rooms, Namespaces
 
 2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Socket.io
 
-3. What are you most excited about trying to implement or see how it works? Implementing socket applications
+3. What are you most excited about trying to implement or see how it works? Excited about learning more of Socket.io
 
 
