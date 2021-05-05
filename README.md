@@ -19,3 +19,5 @@
 [Class 08 Reading Material](https://jarrell28.github.io/reading-notes/class08)
 
 [Class 11 Reading Material](https://jarrell28.github.io/reading-notes/class11)
+
+[Class 12 Reading Material](https://jarrell28.github.io/reading-notes/class12)
