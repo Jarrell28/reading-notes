@@ -21,3 +21,6 @@
 [Class 11 Reading Material](https://jarrell28.github.io/reading-notes/class11)
 
 [Class 12 Reading Material](https://jarrell28.github.io/reading-notes/class12)
+
+[Class 13 Reading Material](https://jarrell28.github.io/reading-notes/class13)
+
