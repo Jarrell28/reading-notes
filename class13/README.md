@@ -1,7 +1,7 @@
 
 # Reading Notes
 
-# Class 12 - Socket.io
+# Class 13 - Message Queues
 
 ## 1. What does it mean that web sockets are bidirectional? Why is this useful?
 
