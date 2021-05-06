@@ -1,7 +1,7 @@
 
 # Reading Notes
 
-# Class 13 - Message Queues
+# Class 14 - Message Queues
 
 ## 1. What’s the difference between a FIFO and a standard queue?
 
