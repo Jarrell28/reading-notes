@@ -37,9 +37,9 @@ Logging message delivery status helps provide better operational insight, such a
 
 ## Document the following Vocabulary Terms
 
-- **Serverless API** - FIFO queues have essentially the same features as standard queues, but provide the added benefits of supporting ordering and exactly-once processing.
+- **Serverless API** - Sits between the backend services of your API and your API’s users, handling the HTTP requests to your API endpoints and routing them to the correct backends. [Resource](https://www.serverless.com/amazon-api-gateway)
 
-- **Triggers** - Pub/Sub is an asynchronous messaging service that decouples services that produce events from services that process events.  [Resource](https://cloud.google.com/pubsub/docs/overview)
+- **Triggers** - Triggers are events that occur in an application that invoke functions listening to those events
 
 - **Dynamo vs Mongo** - Pub/Sub is an asynchronous messaging service that decouples services that produce events from services that process events.  [Resource](https://cloud.google.com/pubsub/docs/overview)
 
