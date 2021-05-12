@@ -32,4 +32,6 @@
 
 [Class 18 AWS: API, Dynamo and Lambda](https://jarrell28.github.io/reading-notes/class18)
 
+[Class 19 AWS: Events](https://jarrell28.github.io/reading-notes/class19)
+
 
