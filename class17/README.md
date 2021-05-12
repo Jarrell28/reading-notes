@@ -35,6 +35,7 @@ Bandwidth is the maximum rate of data transfer across a given path. Bandwidth ma
 - **AWS** - Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services.
 
 - **EC2/Beanstalk vs Heroku** - 
+
 **EC2/Beanstalk is recommended if:** 
 - You need infrastructure flexibility from the first deployment of your application.
 
