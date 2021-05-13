@@ -71,12 +71,4 @@ Logging message delivery status helps provide better operational insight, such a
 
 - **Dynamoose vs Mongoose** - They are essentially the same, but have some small differences with how they handle retrieval and storage of data using methods.
 
-### Preview
-
-1. Which 3 things had you heard about previously and now have better clarity on? Ive heard of AWS, but never used it before
-
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Interested in learning more about AWS SNS and SQS process
-
-3. What are you most excited about trying to implement or see how it works? Implementing AWS SNS and SQS
-
 
