@@ -43,11 +43,11 @@ FIFO queues have essentially the same features as standard queues, but provide t
 
 Logging message delivery status helps provide better operational insight, such as the following:
 
--Knowing whether a message was delivered to the Amazon SNS endpoint.
+- Knowing whether a message was delivered to the Amazon SNS endpoint.
 
--Identifying the response sent from the Amazon SNS endpoint to Amazon SNS.
+- Identifying the response sent from the Amazon SNS endpoint to Amazon SNS.
 
--Determining the message dwell time (the time between the publish timestamp and just before handing off to an Amazon SNS endpoint).
+- Determining the message dwell time (the time between the publish timestamp and just before handing off to an Amazon SNS endpoint).
 
 
 
@@ -59,15 +59,15 @@ Logging message delivery status helps provide better operational insight, such a
 
 - **Dynamo vs Mongo:** [Resource](https://www.xplenty.com/blog/dynamodb-vs-mongodb-differences/#:~:text=DynamoDB%20as%20an%20integrated%20AWS,and%20has%20fewer%20size%20restrictions.)
 
-1. MongoDB is vendor agnostic, Open Source, and can be deployed anywhere. DynamoDB is only available on AWS.
+  1. MongoDB is vendor agnostic, Open Source, and can be deployed anywhere. DynamoDB is only available on AWS.
 
-2. DynamoDB is a fully managed AWS service, MongoDB can be self installed or fully managed with MongoDB Atlas.
+  2. DynamoDB is a fully managed AWS service, MongoDB can be self installed or fully managed with MongoDB Atlas.
 
-3. DynamoDB as an integrated AWS service makes it easier to develop end to end solutions.
+  3. DynamoDB as an integrated AWS service makes it easier to develop end to end solutions.
 
-4. DynamoDB uses tables, items and attributes, MongoDB uses JSON-like documents.
+  4. DynamoDB uses tables, items and attributes, MongoDB uses JSON-like documents.
 
-5. DynamoDB supports limited data types and smaller item sizes; MongoDB supports more data types and has fewer size restrictions.
+  5. DynamoDB supports limited data types and smaller item sizes; MongoDB supports more data types and has fewer size restrictions.
 
 - **Dynamoose vs Mongoose** - They are essentially the same, but have some small differences with how they handle retrieval and storage of data using methods.
 
