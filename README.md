@@ -36,4 +36,5 @@
 
 [Class 19 AWS: Events](https://jarrell28.github.io/reading-notes/class19)
 
+[Class 26 Component Based UI](https://jarrell28.github.io/reading-notes/class26)
 
