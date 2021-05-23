@@ -1,7 +1,7 @@
 
 # Reading Notes
 
-# Class 12 - Component Based UI
+# Class 26 - Component Based UI
 
 ## 1. Name 5 Javascript UI Frameworks (other than React)
 
@@ -14,18 +14,11 @@ When you use a library, you are in charge of the application flow. You choose wh
 
 ## Document the following Vocabulary Terms
 
-- **Rendering** - a piece of computer hardware or software (computer program) that provides functionality for other programs or devices, called "clients". [Resouse](https://en.wikipedia.org/wiki/Server_(computing))
+- **Rendering** - Rendering is the process of transforming your react components into DOM (Document Object Model) nodes that your browser can understand and display on the screen.[Resource](https://www.quora.com/What-does-the-term-render-mean-in-ReactJS-Like-render-a-component)
 
-- **Templates** - Pub/Sub is an asynchronous messaging service that decouples services that produce events from services that process events.  [Resource](https://cloud.google.com/pubsub/docs/overview)
+- **Templates** - React templates are sets of ready-to-use parts of code built using React technology for the development of dynamic user interfaces.  [Resource](https://flatlogic.com/blog/what-is-react-template-react-template-definition/)
 
-- **State** - The web is a cycle of requests and responses that flow between clients and servers. [Resource](https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047)
+- **State** - An object that holds some information that may change over the lifetime of the component. [Resource](https://www.geeksforgeeks.org/reactjs-state-react/)
 
-## Preview
-
-1. Which 3 things had you heard about previously and now have better clarity on? VMs, Cloud Computing, Virtualization
-
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? AWS
-
-3. What are you most excited about trying to implement or see how it works? Deploying to AWS
 
 
