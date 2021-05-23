@@ -20,5 +20,10 @@ When you use a library, you are in charge of the application flow. You choose wh
 
 - **State** - An object that holds some information that may change over the lifetime of the component. [Resource](https://www.geeksforgeeks.org/reactjs-state-react/)
 
+## Preview 
 
+1. Which 3 things had you heard about previously and now have better clarity on? React, JSX, State
 
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Stateful components, functional components, Hooks
+
+3. What are you most excited about trying to implement or see how it works? Implementing a react application
