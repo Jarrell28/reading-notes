@@ -38,3 +38,5 @@
 
 [Class 26 Component Based UI](https://jarrell28.github.io/reading-notes/class26)
 
+[Class 27 State and Props](https://jarrell28.github.io/reading-notes/class27)
+
