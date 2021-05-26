@@ -7,14 +7,16 @@
 A deployed react application does not require a server because it gets compiled into static html and js files.
 
 ## 2. Why do we prefer to test a React application at the behavior rather than the unit level?
-
+We test the behavior of the app instead of unit testing because React is a view library which means the UI will constantly change. It would take an extremely large time to write unit tests for every UI change we make, so we instead only focus on the behavior
 
 ## 3. What does npm run build do?
 
 Converts a React application into static html, css, and js files
 
 ## 4. Describe the actual composition / architecture of a React application
-
+Index.js - The root of the application which renders our app into a static html page that has an ID of root
+App.js - The parent component that renders all child components. Can also contain global state if designed in that manner
+Child components - Smaller js files that usually perform one or two actions which then can be rendered into the parent component
 
 ## Document the following Vocabulary Terms
 
