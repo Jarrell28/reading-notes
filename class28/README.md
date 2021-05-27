@@ -5,28 +5,28 @@
 
 ## 1. Can a parent component access the state of a child component?
 
-A deployed react application does not require a server because it gets compiled into static html and js files.
+Yes, You can access a child components state using Refs. Probably not the best idea to do it in this manner and recommended to lift state to parent from child. [Resource](https://www.geeksforgeeks.org/how-to-access-childs-state-in-react/#:~:text=In%20React%20we%20can%20access,can%20access%20the%20child's%20state.)
 
 ## 2. What can be passed along in a prop variable?
-We test the behavior of the app instead of unit testing because React is a view library which means the UI will constantly change. It would take an extremely large time to write unit tests for every UI change we make, so we instead only focus on the behavior
+Can pass pretty much anything. Variables, arrays, objects, JSX, even components.
 
 ## 3. How can a child component “know” the state of another component?
 
-Converts a React application into static html, css, and js files
+By having App.js manage state for the other component and passing its state to the child component
 
 ## Document the following Vocabulary Terms
 
-- **component props** - Behaviour Driven Development (BDD) is a synthesis and refinement of practices stemming from Test Driven Development (TDD) and Acceptance Test Driven Development (ATDD).[Resource](https://www.agilealliance.org/glossary/bdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'bdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+- **component props** - Data that is passed from a parent component to a child component.
 
-- **component state** - An acceptance test is a formal description of the behavior of a software product, generally expressed as an example or a usage scenario.  [Resource](https://www.agilealliance.org/glossary/acceptance/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'acceptance*20test))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+- **component state** - Data that is managed within that component
 
-- **application state** - Mounting is the process of outputting the virtual representation of a component into the final UI representation (e.g. DOM or Native Components). [Resource](https://stackoverflow.com/questions/31556450/what-is-mounting-in-react-js#:~:text=Mounting%20is%20the%20process%20of,element)%20in%20the%20DOM%20tree.)
+- **application state** - Data that is globally managed by App.js so child components can have access to other child component's state
 
 ## Preview 
 
-1. Which 3 things had you heard about previously and now have better clarity on? State, lifecycle, props
+1. Which 3 things had you heard about previously and now have better clarity on? props.children, Lifecycle methods
 
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Lifecycle methods, hooks, dynamic forms
+2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Context API, hooks, dynamic forms
 
-3. What are you most excited about trying to implement or see how it works? Implementing dynamic forms
+3. What are you most excited about trying to implement or see how it works? Using Context API to manage App state
 
