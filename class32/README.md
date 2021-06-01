@@ -17,7 +17,7 @@ They are easier to read, less code to write and easier to implement. [Resource](
 
 ![image](https://user-images.githubusercontent.com/33704616/120403235-69146b80-c309-11eb-8357-46410a06124d.png)
 
-The for loop should be inside the useEffect callback with renderedItems.pushinside the for loop
+The for loop should be inside the useEffect callback with renderedItems.push inside the for loop
 
 ## Document the following Vocabulary Terms
 
