@@ -40,3 +40,11 @@
 
 [Class 27 State and Props](https://jarrell28.github.io/reading-notes/class27)
 
+[Class 28 Component Composition](https://jarrell28.github.io/reading-notes/class28)
+
+[Class 29 Routing](https://jarrell28.github.io/reading-notes/class29)
+
+[Class 31 Hooks API](https://jarrell28.github.io/reading-notes/class31)
+
+[Class 32 Custom Hooks](https://jarrell28.github.io/reading-notes/class31)
+
