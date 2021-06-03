@@ -14,13 +14,15 @@ No, it must be inside the provider wrapper
 Accessing Current User, Themes, Shopping cart
 
 ## 4. Describe “Context Hell”
+Context Hell is when you have multiple context providers that are nested. [Resource](https://dev.to/alfredosalzillo/the-react-context-hell-7p4)
 
-React-use seems pretty useful. It allows you to keep track of screen size, motion, animations, and dynamically adjust CSS. 
+![image](https://user-images.githubusercontent.com/33704616/120714894-70fb1980-c489-11eb-8f02-208653c77fe9.png)
+
 
 ## Document the following Vocabulary Terms
 
-- **global state** -
-- **global context** - 
+- **global state** - Application state that is accessible by any component
+- **global context** - provides a way to pass data through the component tree without having to pass props down manually at every level 
 - **provider** - a component that as it's names suggests provides the state to its children. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
 - **consumer** -  a component that consumes and uses the state. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
 
