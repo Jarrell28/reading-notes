@@ -1,19 +1,17 @@
 
 # Reading Notes
 
-# Class 33 - Context API
+# Class 34 - <Login/> and <Auth />
 
 ## 1. Why is the Context API useful?
 
-- useMemo can help the performance of an application by “remembering” expensive functions and preventing a re-render every time there is a change in the application. [Resource](https://www.digitalocean.com/community/tutorials/react-usememo)
-
-- useReducer is great for managing more complicated state than you would want to manage with useState on its own. [Resource](https://daveceddia.com/usereducer-hook-examples/)
+It allows you to produce global variables that can be accessed from anywhere in the application. This is very useful for Login features where you have to keep track of the current user. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
 
 ## 2. Can a component outside of a provider get its context?
-React requires this because it warns you when attempting to use custom hooks in unintended ways.
+No, it must be inside the provider wrapper
 
 ## 3. What are some common use cases for using the Context API?
-Custom Hooks provide you with reusuable functionality that you can use in multiple areas of your application.
+Accessing Current User, Themes, Shopping cart
 
 ## 4. Describe “Context Hell”
 
@@ -22,9 +20,9 @@ React-use seems pretty useful. It allows you to keep track of screen size, motio
 ## Document the following Vocabulary Terms
 
 - **global state** -
-- **global context** -
-- **provider** -
-- **consumer** -
+- **global context** - 
+- **provider** - a component that as it's names suggests provides the state to its children. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
+- **consumer** -  a component that consumes and uses the state. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
 
 ## Preview 
 
