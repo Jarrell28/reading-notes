@@ -46,5 +46,7 @@
 
 [Class 31 Hooks API](https://jarrell28.github.io/reading-notes/class31)
 
-[Class 32 Custom Hooks](https://jarrell28.github.io/reading-notes/class31)
+[Class 32 Custom Hooks](https://jarrell28.github.io/reading-notes/class32)
+
+[Class 33 Context API](https://jarrell28.github.io/reading-notes/class33)
 
