@@ -1,7 +1,7 @@
 
 # Reading Notes
 
-# Class 34 - <Login/> and <Auth />
+# Class 34 - Login and Auth
 
 ## 1. Why is the Context API useful?
 
