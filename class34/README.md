@@ -26,14 +26,6 @@ Context Hell is when you have multiple context providers that are nested. [Resou
 - **provider** - a component that as it's names suggests provides the state to its children. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
 - **consumer** -  a component that consumes and uses the state. [Resource](https://www.loginradius.com/blog/async/react-context-api/)
 
-## Preview 
-
-1. Which 3 things had you heard about previously and now have better clarity on? Context API
-
-2. Which 3 things are you hoping to learn more about in the upcoming lecture/demo? Context API, Redux, Reducers
-
-3. What are you most excited about trying to implement or see how it works? Implementing Context API 
-
 
 
 
