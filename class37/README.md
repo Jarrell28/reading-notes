@@ -5,7 +5,7 @@
 
 ## 1. Why choose Redux instead of the Context API for global state?
 
-Redux is better for larger applications where there are high-frequency state updates. [Reource](https://www.codehousegroup.com/insight-and-inspiration/tech-stream/using-redux-and-context-api)
+Redux is better for larger applications where there are high-frequency state updates. [Resource](https://www.codehousegroup.com/insight-and-inspiration/tech-stream/using-redux-and-context-api)
 
 ## 2. What is the purpose of a reducer?
 Evaluates the type of action and creates a new state
