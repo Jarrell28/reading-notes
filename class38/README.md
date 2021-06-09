@@ -1,7 +1,7 @@
 
 # Reading Notes
 
-# Class 37 - Redux - Combined Reducers
+# Class 38 - Redux - Asynchronous Actions
 
 ## 1. How granular should your reducers be?
 
